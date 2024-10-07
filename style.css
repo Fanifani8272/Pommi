@@ -1,0 +1,67 @@
+
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('path_to_your_image.png'); /* Remplacez par le chemin vers l'image téléchargée */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+header h1 {
+    color: #ff0000; /* Rouge pour le titre */
+    font-size: 3em;
+}
+
+header p {
+    color: #228B22; /* Vert pour le sous-titre */
+    font-size: 1.2em;
+}
+
+/* Contenu principal */
+.content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    max-width: 800px;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.content h2 {
+    color: #228B22; /* Vert pour les sous-titres */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.content p, .content ul {
+    color: #333; /* Texte en noir pour le contraste */
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
